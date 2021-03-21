@@ -1,7 +1,9 @@
 print("Mary had a little lamb.")
-print("Its fleece was white as {}.".format('snow'))
+snow = 10
+name = "NAOFAL"
+print("Its fleece was white as {}{}.".format(snow, ' name'))
 print("And everywhere Mary went.")
-print("." * 10 ) #what 'd that do?
+print("> " * 50 ) #what 'd that do?
 
 end1 = "C"
 end2 = "H"
