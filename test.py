@@ -1,7 +1,9 @@
-days ="Man Din Woe Do Vr Za Zo"
-months = "Jan\nFeb\nMar\nApr\nJun\nJul\nAug\nSep\nOct\nNov\nDec"
-print("Here are the days : ", days)
-print ("HEre are the months:", months)
-print(""" Here you can add everything you want 
-Hier kan he alles wat je wilt toevoegen 
-Aqui puedes anadir lo que quieras""")
+print("How old are you?", end='>>>')
+age = input()
+print("How tall are you", end='>>>')
+
+height = input()
+print("How much do you weight?", end='>>>')
+weight = input()
+print(f"So, you're {age} old, {height} tall and {weight} heavy.")
+
