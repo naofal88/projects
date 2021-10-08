@@ -13,8 +13,8 @@ def print_one(arg1):
 #this one takes no arguments
 def print_none():
     print("I got nothing'.")
-    print_two("Naofal", "Ftouh")
-    print_two_again("Naofal", "Ftouh")
-    print_one("First!")
-    print_none()
+print_two("Naofal", "Ftouh")
+print_two_again("Naofal", "Ftouh")
+print_one("First!")
+print_none()
 
